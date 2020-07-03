@@ -1,0 +1,190 @@
+html,body{
+    
+    
+  overflow: hidden;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    font-family: 'Lalezar', cursive;
+}
+.main_color{
+ color: #e50914;
+}
+
+.bg{
+    
+    
+     background-image: url(https://images.wallpaperscraft.com/image/vikings_historical_drama_travis_fimmel_ragnar_lothbrok_katheryn_winnick_lagertha_95754_1280x1024.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%; 
+    position: relative;
+     width: 100%;
+     display: block;
+    /* Center and scale the image nicely */  
+    background-repeat: no-repeat;
+}
+.container{
+    
+    text-align: center;
+    padding-top: 5%;
+    
+}
+
+form input{
+    
+     height: 37px;
+    width: 300px;
+    margin-top: 28px;
+    /* text-align: left; */
+    text-align: center;
+   border: 0px;
+}
+form button{
+    
+    background-color: #e50914;
+    height: 37px;
+    width: 307px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    border: 0px;
+    margin-top: 30px;
+    
+}
+.pic{
+    
+        text-align: center;
+    font-size: 20px;
+    width: 300px;
+    margin: 0 auto;
+    padding: 7px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.pic .glyphicon{
+    
+        font-size: 20px;
+    margin-right: 10px;
+    /*color: #d9534f;*/
+    color: #e50914;
+    vertical-align: sub;
+}
+.form{
+    
+    background-color: aqua;
+}
+
+.over{
+    
+        background-color: rgba(51, 51, 51, 0.56);
+    padding: 24px;
+    margin: 0 auto;
+    position: relative;
+    width: 620px;
+    border-radius: 30px 5px 100px 0px;
+    border: 1px solid #8888;
+}
+.over1{
+    
+      width: 100%;
+    height: 100%;
+    background-color:  rgba(165, 42, 42, 0.18);}
+.logo span{
+    
+    color: #e50914;
+}
+.logo h1{
+    
+       color: #fff;
+    font-size: 33px;
+    line-height: 40px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 40px;
+    padding-bottom: 25px;
+}
+
+.lin{
+    
+    color: white;
+}
+.lin a{
+    
+    color: red;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 767.98px) { 
+    .bg{
+  background-image: url(https://images.wallpaperscraft.com/image/vikings_historical_drama_travis_fimmel_ragnar_lothbrok_katheryn_winnick_lagertha_95754_1024x600.jpg);    
+    }
+    
+    .over{
+    text-align: center;
+    background-color: rgba(51, 51, 51, 0.56);
+    padding: 24px;
+    margin: 0 auto;
+    position: relative;
+    width: 500px;
+}
+}
+
+
+
+
+@media (max-width:  575.98px) { 
+
+    form input{
+     height: 50px;
+    width: 200px;
+    margin-top: 28px;
+    /* text-align: left; */
+    text-align: center;
+   border: 0px;
+    }
+    .over{
+    text-align: center;
+    background-color: rgba(51, 51, 51, 0.56);
+    padding: 24px;
+    margin: 0 auto;
+    position: relative;
+    width: 400px;
+}
+    form button{
+    
+    background-color: #e50914;
+    height: 50px;
+    width: 200px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    border: 0px;
+    margin-top: 30px;
+    
+    
+}
+
+ .bg{
+    
+    
+     background-image: url(https://images.wallpaperscraft.com/image/vikings_historical_drama_travis_fimmel_ragnar_lothbrok_katheryn_winnick_lagertha_95754_720x1280.jpg);
+   
+}
+    
+
+}
+
+
+

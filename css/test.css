@@ -1,0 +1,59 @@
+.leftList{
+    background-color: transparent;
+    border: 0px;
+}
+.MultiCarousel {
+    float: left;
+    overflow: hidden; 
+    padding: 15px;
+    width: 100%;
+    position:relative;
+}
+    .MultiCarousel .MultiCarousel-inner 
+{
+    transition: 1s ease all; 
+    float: left;
+}
+        .MultiCarousel .MultiCarousel-inner .item { 
+            float: left;
+                            }           
+        .MultiCarousel .MultiCarousel-inner .item > div {
+            text-align: center;
+            padding:10px;
+            margin:10px;
+            /*background:#f1f1f1;
+            color:#666;*/
+                        }
+    .MultiCarousel .leftLst, .MultiCarousel .rightLst {
+        position:absolute;
+        
+        top:calc(50% - 20px); 
+        background-color: rgba(255, 255, 255, 0.49);
+    border: 0px;
+                        }
+    .MultiCarousel .leftLst { left:0; }
+    .MultiCarousel .rightLst { right:0; }
+    
+        .MultiCarousel .leftLst.over, .MultiCarousel .rightLst.over {   
+            pointer-events: none; 
+            background-color: rgba(255, 255, 255, 0.49);
+            border: 1 px solid;
+
+                }
+
+
+
+.pic {
+    
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+.homepimg{
+    
+    background-image: url(https://dumielauxepices.net/sites/default/files/one-piece-clipart-hd-wallpaper-701390-8856678.png);
+    max-width: 100%;
+    position: absolute;
+}
